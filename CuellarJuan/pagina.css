@@ -1,0 +1,13 @@
+body{
+    background-color: bisque;
+}
+.conBorde{
+    border: rgb(179, 255, 0);
+    padding: 10px;
+}
+.miParrafoEspecial{
+    text-align: center;
+}
+.ConBorde{
+    text-align: center;
+}

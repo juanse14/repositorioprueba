@@ -1,0 +1,109 @@
+<!--lo que viene es códiog html-->
+<!DOCTYPE html>
+<!--acá comienza para abajo comienza el html-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css" />
+
+    <style>
+  body {
+        display: grid;
+        grid-template-columns: 500px 500px;
+        grid-template-rows: auto;
+        grid-template-areas:
+          "content content "
+          "content content "
+          "content content ";
+      }
+      main {
+        grid-area: content; 
+        display: grid;
+        grid-template-columns: 250px 250px ;
+        grid-template-rows: auto;
+        grid-template-areas:
+        "h1 h1 ";
+        }
+    </style>
+</head>
+<body>
+
+    <h1 style="color: red">¿Finalmente hemos encontrado vida en otro planeta?</h1>
+    <p id="p1" class="conBorde">
+      Hace poco ha salido la noticia:encuentran vida en Venus. Si bien eso no es del todo
+      cierto, vale la pena averiguar un poco más del tema pues la posibilidad de encontrar vida en otro planeta
+      siempre ha sido motivo de gran interés y, sin duda alguna, el día que lo hagamos (porque así será)
+      será un evento histórico legendario en la historia de la humanidad.
+    </p>
+
+    <p id="miParrafoEspecial">
+      Este es otro parrafo Lorem ipsum dolor sit amet consectetur adipisicing
+      elit. Doloribus, dicta. Cumque ab voluptatum ipsa repellat corrupti
+      accusantium? Deleniti sit obcaecati facere totam illum beatae, quas autem
+      consectetur dolorem quisquam impedit.
+    </p>
+    <img
+      src="https://i.ytimg.com/vi/H6lb46AiXHQ/maxresdefault.jpg"
+      alt="Campo eléctrico"
+      class="conBorde"
+    />
+    <p>
+      Al hacer click <a href="https://gimnasiovolta.edu.co/"> aquí</a> se llega
+      a la página del volta
+    </p>
+
+    <h2>Así se calcula el campo eléctrico total:</h2>
+
+    <ol class="conBorde">
+      <li>Hacer el dibujo</li>
+      <li>
+        Calcular la distancia entre las fuentes y el punto donde se quiere
+        calcular el campo
+      </li>
+      <li>Calcular la magnitud del campo</li>
+      <li>Calcular el ángulo</li>
+      <li>Calcular las componentes</li>
+      <li>Sumar</li>
+    </ol>
+    <ul>
+      <li>Fisica</li>
+      <li>Informatica</li>
+      <li>Matematicas</li>
+      <li>Italiano</li>
+    </ul>
+
+    <h2 class="conBorde">Ahora vamos a hacer una tabla</h2>
+    <table>
+      <tr>
+        <th>Nombre</th>
+        <th>Apellido</th>
+        <th>Edad</th>
+      </tr>
+      <tr>
+        <td>David</td>
+        <td>Arámbula</td>
+        <td>16</td>
+      </tr>
+      <tr>
+        <td>Alejandro</td>
+        <td>Suárez</td>
+        <td>17</td>
+      </tr>
+    </table>
+    <h2>Esto es una forma para pedirle datos al usuario</h2>
+    <form action="">
+      Nombre
+      <input type="text" />
+      Apellido
+      <input type="text" />
+      Contraseña
+      <input type="password" />
+      <button type="submit">Enviar</button>
+    </form>
+    <!-- incluyo el archivo de js -->
+    <!-- corre cuando la página se está cargando -->
+    <script src="script.js"></script>
+</body>
+</html>
